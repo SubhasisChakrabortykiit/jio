@@ -1,0 +1,458 @@
+.textboxcss
+{
+    /*background: url('images/user_icon.png') no-repeat scroll right center #FFFFFF;*/
+    padding: 3px 10px;
+    border:1px solid #9EB2B5;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 5px #DDD inset;
+    float: left;
+    outline: none;
+    font-size: small;
+    color: #000000;
+    font-family: Verdana;
+ }
+ .textboxcss:focus
+ {
+    padding: 3px 10px;
+    border:1px solid #9EB2B5;
+    background-color: #D8D8B5;
+    box-shadow: 0 0 5px #DDD inset;
+    float: left;
+    outline: none;
+    height: 16px;
+    font-size: small;
+    color: #000000;
+    font-family: Verdana;
+ }
+.textboxcssrequire
+{
+    background: url(../images/iconRequired.gif) no-repeat scroll right center #FFFFFF;
+    padding: 3px 10px;
+    border:1px solid #9EB2B5;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 5px #DDD inset;
+    float: left;
+    outline: none;
+    height: 16px;
+    color: #000000;
+    font-size: small;
+}
+.textboxcssrequire:focus
+{
+    background: url(../images/iconRequired.gif) no-repeat scroll right center #FFFFFF;
+    padding: 3px 10px;
+    border:1px solid #9EB2B5;
+    background-color: #D8D8B5;
+    box-shadow: 0 0 5px #DDD inset;
+    float: left;
+    outline: none;
+    height: 16px;
+    color: #000000;
+    font-size: small;
+}
+.textboxcsstransparent
+{
+    padding-left: 10px;
+    border:1px solid #7E5D3C;
+    background-color: Transparent;
+    font-size: 14px;
+    height: 25px;
+    border-bottom-left-radius: .5em; 
+    border-bottom-right-radius: .5em; 
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+}
+
+.textboxcsstransparent:focus
+{
+    padding-left: 10px;
+    border:1px solid #7E5D3C;
+    background-color: #D8D8B5;
+    font-size: 14px;
+    height: 25px;
+    border-bottom-left-radius: .5em; 
+    border-bottom-right-radius: .5em; 
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+}
+.textboxmultilinecss
+{
+    padding-left: 10px;
+    font-family: Verdana;
+    border:1px solid #7BB6E2;
+    background-color: White;
+    box-shadow: 0 0 5px #DDD inset;
+    float: left;
+    outline: none;    
+    font-size: small;
+    height: 150px;
+}
+
+.textboxmultilinecsstransparent
+{
+    padding-left: 10px;
+    border:1px solid #7E5D3C;
+    font-family: Verdana;
+    background-color: Transparent;
+    font-size: 12px;
+    height: 150px;
+    border-bottom-left-radius: .5em; 
+    border-bottom-right-radius: .5em; 
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+}
+.TextWatermarkCss
+{
+    color: Gray;
+    font-style: italic;
+    font-family: Calibri;
+    padding-left: 10px;
+    border:1px solid #1379C8;
+    background-color: White;
+    height: 30px;
+    font-size: medium;
+    border-bottom-left-radius: .5em; 
+    border-bottom-right-radius: .5em; 
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+}
+
+.TextWatermarkCssTransaparent
+{
+    color: Gray;
+    font-style: italic;
+    font-family: Calibri;
+    padding-left: 10px;
+    border:1px solid #7E5D3C;
+    background-color: Transparent;
+    font-size: 14px;
+    height: 25px;
+    border-bottom-left-radius: .5em; 
+    border-bottom-right-radius: .5em; 
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+}
+
+.TextWatermarkCss16
+{
+    color: Gray;
+    font-style: italic;
+    font-family: Calibri;
+    padding-left: 10px;
+    border:1px solid #1379C8;
+    background-color: White;
+    height: 16px;
+    font-size: small;
+    border-bottom-left-radius: .5em; 
+    border-bottom-right-radius: .5em; 
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+}
+.dropdowncss
+{
+    padding-left: 10px;
+    border:1px solid #9EB2B5;
+    font-size: small;
+    height: 25px;
+    background-color: White;
+    box-shadow: 0 0 5px #DDD inset;
+    float: left;
+    outline: none;    
+    font-family: Verdana;
+    margin-top: 0px;
+}
+.dropdowncss:focus
+{
+    padding-left: 10px;
+    border:1px solid #9EB2B5;
+    font-size: small;
+    height: 25px;
+    background-color: #D8D8B5;
+    box-shadow: 0 0 5px #DDD inset;
+    float: left;
+    outline: none;    
+    font-family: Verdana;
+}
+.dropdowncsstransparent
+{
+    padding-left: 10px;
+    border:1px solid #7E5D3C;
+    font-size: medium;
+    height: 28px;
+    font-size: 14px;
+    background-color: Transparent;
+    border-bottom-left-radius: .5em; 
+    border-bottom-right-radius: .5em; 
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+}
+.buttonsavecss
+{
+    border:1px solid #888977;
+    font-size: small;
+    background-color: #CFE0E1;
+    color: black;
+    cursor: pointer;
+    border-bottom-left-radius: .5em; 
+    border-bottom-right-radius: .5em; 
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+    font-weight: 700;
+}
+
+.buttoncancelcss
+{
+    border:1px solid #00448B;
+    height: 22px;
+    background-color: red;
+    color: White;
+    cursor: pointer;
+    font-size: small;
+    font-weight: 700;
+}
+.buttonbackcss
+{
+    border:1px solid #A9A9A9;
+    font-size: medium;
+    background-color: green;
+    color: White;
+    cursor: pointer;
+    border-bottom-left-radius: .5em; 
+    border-bottom-right-radius: .5em; 
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+    font-weight: 700;
+}
+.buttonwhitecss
+{
+    border:1px solid #00448B;
+    height: 22px;
+    cursor: pointer;
+    background-color: white;
+    color: #00448B;
+    font-size: small;
+    font-weight: 700;
+}
+
+.buttonhyperlink
+{
+    border:1px solid #439BCA;
+    height: 22px;
+    cursor: pointer;
+    padding: 2px 0 0 0;
+    background-color: white;
+    color: #C4D7DA;
+    text-align: center;
+    border-bottom-left-radius: .5em; 
+    border-bottom-right-radius: .5em; 
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+    font-size: small;
+}
+.searchimage
+{
+    background: url(../images/SearchSmall_over.gif) no-repeat;
+    padding-left: 30px;
+    border:1px solid #9EB2B5;
+    background-color: White;
+    height: 24px;
+    font-size: medium;
+    border-bottom-right-radius: .5em; 
+    border-top-right-radius: .5em;
+}
+.searchimageright
+{
+    background: url(../images/Calendar.png) no-repeat scroll right center #FFFFFF;
+    padding-left: 10px;
+    border:1px solid #7BB6E2;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 5px #DDD inset;
+    float: left;
+    outline: none;
+    background-color: White;
+    height: 26px;
+    width: 110px;
+    font-size: small;
+}
+.printbutton
+{
+    background: url(../images/printer.png) no-repeat scroll left 10px center #FFFFFF;
+    font-size: small; 
+    font-family: Verdana; 
+    background-color: #575992; 
+    padding: 7px 40px 7px 40px; 
+    font-weight: bold; 
+    color: #ffffff; 
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 5px #DDD inset;
+}
+    .datalistitem
+    {
+        background-color: #F6F6F6;
+    }
+    .datalistalternating
+    {
+        background-color: #FCFCFC;
+    }
+   .buttonsave {
+   border-top: 1px solid #96d1f8;
+   background: #8ac5ed;
+   background: -webkit-gradient(linear, left top, left bottom, from(#023e66), to(#8ac5ed));
+   background: -webkit-linear-gradient(top, #023e66, #8ac5ed);
+   background: -moz-linear-gradient(top, #023e66, #8ac5ed);
+   background: -ms-linear-gradient(top, #023e66, #8ac5ed);
+   background: -o-linear-gradient(top, #023e66, #8ac5ed);
+   padding: 3px 6px;
+   -webkit-border-radius: 11px;
+   -moz-border-radius: 11px;
+   border-radius: 11px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 18px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.buttonsave:hover {
+   border-top-color: #228dd4;
+   background: #228dd4;
+   color: #ccc;
+   cursor: pointer;
+   }
+.buttonsave:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+   
+.buttoncss {        
+    display: inline-block;
+    white-space: nowrap;
+    cursor: pointer;
+    background-color: #ccc;
+    border: 1px solid #777;
+    padding: 0 1.5em;
+    margin: 0.5em;
+    font: bold 1em/2em Arial, Helvetica;
+    text-decoration: none;
+    color: #333;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .8);
+    border-radius: .2em;
+    box-shadow: 0 0 1px 1px rgba(255, 255, 255, .8) inset, 0 1px 0 rgba(0, 0, 0, .3);
+    background-image: linear-gradient(top, #eee, #ccc);
+}
+
+.buttoncss:hover {
+    background-color: #ddd;        
+    background-image: linear-gradient(top, #fafafa, #ddd);
+}
+
+.buttoncss:active {
+    box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+    position: relative;
+    top: 1px;
+}
+
+.buttoncss:focus {
+    outline: 0;
+    background: #fafafa;
+}    
+
+.buttoncss:before {
+    background: #ccc;
+    background: rgba(0,0,0,.1);
+    float: left;        
+    width: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 1em 0 -1em;
+    padding: 0 .2em;
+    box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
+    border-radius: .15em 0 0 .15em;
+    pointer-events: none;        
+}
+
+/* Hexadecimal entities for the icons */
+
+.add:before {
+    content: "\271A";
+}
+
+.edit:before {
+    content: "\270E";        
+}
+
+.delete:before {
+    content: "\2718";        
+}
+
+.save:before {
+    content: "\2714";        
+}
+
+.email:before {
+    content: "\2709";        
+}
+
+.like:before {
+    content: "\2764";        
+}
+
+.next:before {
+    content: "\279C";
+}
+
+.star:before {
+    content: "\2605";
+}
+
+.spark:before {
+    content: "\2737";
+}
+
+.play:before {
+    content: "\25B6";
+}
+
+.recycle:before  
+{
+    content: "\267D"; 
+}
+.watch:before              { content: "\231A"; }
+.blacksun:before           { content: "\2600"; }
+.cloud:before              { content: "\2601"; }
+.umbrella:before           { content: "\2602"; }
+.snowman:before            { content: "\2603"; }
+.blackstar:before          { content: "\2605"; }
+.whitestar:before          { content: "\2606"; }
+.blackphone:before         { content: "\260E"; }
+.whitephone:before         { content: "\260F"; }
+.saltire:before            { content: "\2613"; }
+.hot_drink:before          { content: "\2615"; }
+.skull:before              { content: "\2620"; }
+.radioactive:before        { content: "\2622"; }
+.biohazard:before          { content: "\2623"; }
+.peace:before              { content: "\262E"; }
+.yingyang:before           { content: "\262F"; }
+.frowning_face:before      { content: "\2639"; }
+.smiling_face:before       { content: "\263A"; }
+.first_quarter_moon:before { content: "\263D"; }
+.last_quarter_moon:before  { content: "\263E"; }
+.wheelchair:before         { content: "\267F"; }
+.recycle2:before           { content: "\267C"; }
+.music_note:before         { content: "\266C"; }
+.warning:before            { content: "\26A0"; }
+.male_and_female:before    { content: "\26A4"; }
+.scissors:before           { content: "\2701"; }
+.airplane:before           { content: "\2708"; }
+.snow:before               { content: "\2042"; }
+.left_arrow:before       { content: "\2190"; }
+.up_arrow:before         { content: "\2191"; }
+.right_arrow:before      { content: "\2192"; }
+.down_arrow:before       { content: "\2193"; }
+.up_left_arrow:before    { content: "\2196"; }
+.up_right_arrow:before   { content: "\2197"; }
+.down_left_arrow:before  { content: "\2199"; }
+.down_right_arrow:before { content: "\2198"; }
