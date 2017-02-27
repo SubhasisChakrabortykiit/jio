@@ -1,0 +1,113 @@
+
+/* ----------- Toggle --------------*/
+#box {
+	width: 350px;
+	font-size: 12px;
+	line-height: 20px;
+	left: -324px;
+	top: 220px;
+	position: fixed;
+	z-index: 100;
+}
+#tab {
+	float: right;
+	list-style: none outside none;
+	margin-top: 110px;
+	padding: 0;
+	position: relative;
+	z-index: 99;
+}
+#tab li span {
+	display: block;
+	padding: 0 5px;
+	position: relative;
+}
+#links {
+	width: 230px;
+	float: right;
+	background: #ECF5FF;
+	border-top: #2163A8 2px solid;
+	/*background: url(image/pop-bg.jpg);*/
+}
+.hide {
+	margin-right: 0px;
+}
+.show {
+	margin-left: 230px;
+}
+#arrow, .bt {
+	cursor: pointer;
+}
+#arrow {
+	margin-top: -30px;
+}
+.bt {
+	width: 230px;
+	height: 220px;
+}
+#deco {
+	width: 230px;
+	float: right;
+}
+.txt {
+	padding: 2px 6px;
+	height: 18px;
+	width: 180px;
+	border: 1px solid #999999;
+	color: #000;
+}
+.txt2 {
+	padding: 0px 6px;
+	border: 1px solid #999999;
+	height: 28px;
+	width: 192px;
+	color: #000;
+}
+.txt3 {
+	padding: 2px 6px;
+	border: 1px solid #999999;
+	height: 60px;
+	width: 180px;
+	color: #000;
+}
+.bluesr {
+	float: right;
+	margin: 6px 25px 0 0;
+}
+.breaker {
+	clear: both;
+	height: 1px;
+}
+.seed {
+	float: left;
+	max-width: 290px;
+	padding: 0px;
+	padding-bottom: 10px;
+	color: #787878;
+	border-radius: 4px;
+}
+.seed h2 {
+	padding: 9px 0px 4px 10px;
+	letter-spacing: 0.5px;
+	color: #000;
+	margin: 0px 4px 10px 0px;
+	font-size: 16px;
+	background: #AED3F9;
+}
+.seed li {
+	padding: 2px 20px 4px 20px;
+	list-style: none;
+	color: #050603;
+	margin-bottom: 4px;
+	text-align: justify;
+}
+.imagead
+{
+    float: right;
+    max-width: 500px;
+    margin-left: 20px;
+}
+.pagerfullpage {
+	max-width: 100%;
+	margin: 0px 20px 0px 20px;
+}
